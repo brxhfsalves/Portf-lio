@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <title>Fotografia</title>
+    <title>habilidades</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Designer.<b>SA</b></div>
+            <ul class="navItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index-1.html">Sobre</a></li>
+                <li><a href="index-3.html">Fotografia</a></li>
+                <li><a href="index-4.html">Contato</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/bruna-fernanda-silva-alves-a6611621b"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/designr.bsa/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/brxhfsalves/site.impactos"><i class="fab fa-github"></i></a>
+            </div>
+        </nav>
+        <style>
+            
+          </style>
+        </head>
+        <body>
+          <div class="banner-container">
+            <img class="banner-image active" src="2.png" alt="">
+            <img class="banner-image" src="voo da boboleta.png" alt="Imagem 2">
+            <img class="banner-image" src="AA518DD5-99AA-4D6B-A518-1BBFA5EEA133.png" alt="Imagem 3">
+            <img class="banner-image" src="IMG-olhos.png" alt="Imagem 6">
+            <img class="banner-image" src="IMG-sorte.png" alt="Imagem 7">
+            <img class="banner-image" src="IMG-283.png" alt="Imagem 8">
+            <img class="banner-image" src="IMG-bolhos.png" alt="Imagem 0">
+            <img class="banner-image" src="IMG-pele.png" alt="Imagem 2">
+
+      
+            
+            <div class="banner-box active">
+              <p></p>
+            </div>
+            
+            <div class="banner-box">
+              <p></p>
+            </div>
+            
+            <div class="banner-box">
+              <p></p>
+            </div>
+              <div class="banner-box">
+                <p></p>
+              </div>
+              <div class="banner-box">
+                <p></p>
+              </div>
+              <div class="banner-box">
+                <p></p>
+              </div>
+              <div class="banner-box">
+                <p></p>
+              </div>
+              <div class="banner-box">
+                <p></p>
+              </div>
+              <div class="banner-box">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <script>
+            // Código JavaScript para fazer a rotação do banner
+            const images = document.querySelectorAll('.banner-image');
+            const boxes = document.querySelectorAll('.banner-box');
+            let index = 0;
+        
+            setInterval(() => {
+              images[index].classList.remove('active');
+              boxes[index].classList.remove('active');
+        
+              index = (index + 1) % images.length;
+        
+              images[index].classList.add('active');
+              boxes[index].classList.add('active');
+            }, 3000);
+          </script>
+        
+        
+</body>
+</html>
